@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+}
+
+.container{
+    max-width: 1270px;
+    margin: auto;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+li {
+    float: left;
+    /* padding: 10px;  */
+}
+.nav_sec_left{
+    margin-top: -10px;
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.nav_sec_right{
+    float: right;
+}
+.banner_img img {
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.user-icon{
+  margin-right: 8px;
+}
+
+.shopping-icon{
+  margin-right: 8px;
+}
+
+
+
+ 
+.body_container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+ 
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+ 
+.header-image {
+    width: 100%;
+    max-width: 100%;
+}
+ 
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    /* width: 200px; */
+    height: 240px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.product-info {
+    margin: 10px 0 10px 15px;
+}
+
+.discount-badge {
+    color: #d51818;
+    background-color: #f1a54a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-info {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.price-info del {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.product-image {
+    width: 100px;
+    height: auto;
+}
+
